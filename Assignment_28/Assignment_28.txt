@@ -1,0 +1,6 @@
+#Name: Joey Fong
+#Email: joey.fong39@myhunter.cuny.edu
+#Date: October 21, 2019
+#Unix Shell Script print "Hello World"
+
+echo Hello World

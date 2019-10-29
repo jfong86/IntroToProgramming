@@ -1,0 +1,5 @@
+#Name: Joey Fong
+#Email:  joey.fong39@myhunter.cuny.edu
+#Program:  Computes NAND of two inputs, using only AND, OR, and NOT gates
+
+out = not(in1 and in2)
