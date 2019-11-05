@@ -12,17 +12,27 @@ def num2string(num):
      """
      
      numString = ""
-
-     ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other than your name above, ###
-     ### this is the only section    ###
-     ### you change in this program. ###
-     ###################################
-
+     if num == 0:
+          numString = "zero"
+     if num == 1:
+          numString = "one"
+     if num == 2:
+          numString = "two"
+     if num == 3:
+          numString = "three"
+     if num == 4:
+          numString = "four"
+     if num == 5:
+          numString = "five"
+     if num == 6:
+          numString = "six"
+     if num == 7:
+          numString = "seven"
+     if num == 8:
+          numString = "eight"
+     if num == 9:
+          numString = "nine"
      return(numString)
-
-
 
 def main():
      nums = input('Enter a multi-digit number: ')
