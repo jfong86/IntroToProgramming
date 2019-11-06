@@ -3,15 +3,9 @@
 #A program that uses functions to print out months.
 #Modified by:  Joey Fong
 
-def num2string(num):
-     """
-     Takes as input a number, num, and
-     returns the corresponding name as a string.
-     Examples: num2string(0) returns "zero", num2string(1)returns "one"
-     Assumes that input is an integer ranging from 0 to 9
-     """
-     
+"""
      numString = ""
+
      if num == 0:
           numString = "zero"
      if num == 1:
@@ -32,6 +26,13 @@ def num2string(num):
           numString = "eight"
      if num == 9:
           numString = "nine"
+     
+     return(numString)
+"""
+
+def num2string(num):
+     numArray = ["zero","one","two","three","four","five","six","seven","eight","nine"]
+     numString = numArray[num]
      return(numString)
 
 def main():
