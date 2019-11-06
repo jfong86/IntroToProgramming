@@ -21,5 +21,5 @@ homeless['Fraction Children'] = homeless['Total Children in Shelter']/homeless['
 homeless.plot(x = "Date of Census", y = "Fraction Children")
 #plt.show()
 
-abcd = plt.gcf()
-abcd.savefig(outFile)
+childShelterPop = plt.gcf()
+childShelterPop.savefig(outFile)
