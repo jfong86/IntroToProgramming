@@ -4,8 +4,8 @@
 #Modified by:  Joey Fong
 
 """
+def num2string(num):
      numString = ""
-
      if num == 0:
           numString = "zero"
      if num == 1:
@@ -25,8 +25,7 @@
      if num == 8:
           numString = "eight"
      if num == 9:
-          numString = "nine"
-     
+          numString = "nine"     
      return(numString)
 """
 
