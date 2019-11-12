@@ -1,5 +1,5 @@
-#YOUR NAME HERE
-#YOUR EMAIL HERE
+#Name: Joey Fong
+#Email: joey.fong39@myhunter.cuny.edu
 #Inspired by 2018 Nifty Program by Phil Ventura:
 #   This program uses his turtle setup but processing
 #       of data is with Pandas.
@@ -52,13 +52,26 @@ def animate(t,lat,lon,wind):
     (i.e. pensize(5) for Category 5, pensize(4) for Category 4, etc.).
 
     """
-
-     ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other thanname/email above, ###
-     ### this is the only section    ###
-     ### you change in this program. ###
-     ###################################
+    t.goto(lon,lat)
+    t.pendown()
+    if wind > 157:
+        t.pensize(5)
+        t.color('red')
+    elif wind >=130 and wind <= 156:
+        t.pensize(4)
+        t.color('orange')
+    elif wind >= 111 and wind <= 129:
+        t.pensize(3)
+        t.color('yellow')
+    elif wind >= 96 and wind <= 110:
+        t.pensize(2)
+        t.color('green')
+    elif wind >= 74 and wind <=95:
+        t.pensize(1)
+        t.color('blue')
+    else:
+        t.pensize(1)
+        t.color('white')
     
     return(t)
 
