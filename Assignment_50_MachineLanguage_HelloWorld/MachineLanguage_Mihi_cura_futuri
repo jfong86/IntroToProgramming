@@ -1,0 +1,44 @@
+#Name: Joey Fong
+#Email: joey.fong39@myhunter.cuny.edu
+
+#My first MIPS program that prints: Mihi cura futuri
+
+addi $sp, $sp, -17
+addi $t0, $zero, 77 #M
+sb $t0, 0($sp)
+addi $t0, $zero, 105 #i
+sb $t0, 1($sp)
+addi $t0, $zero, 104 #h
+sb $t0, 2($sp)
+addi $t0, $zero, 105 #i
+sb $t0, 3($sp)
+addi $t0, $zero, 32 #space
+sb $t0, 4($sp)
+addi $t0, $zero, 99 #c
+sb $t0, 5($sp)
+addi $t0, $zero, 117 #u
+sb $t0, 6($sp)
+addi $t0, $zero, 114 #r
+sb $t0, 7($sp)
+addi $t0, $zero, 97 #a
+sb $t0, 8($sp)
+addi $t0, $zero, 32
+sb $t0, 9($sp)
+addi $t0, $zero, 102 #f
+sb $t0, 10($sp)
+addi $t0, $zero, 117 #u
+sb $t0, 11($sp)
+addi $t0, $zero, 116 #t
+sb $t0, 12($sp)
+addi $t0, $zero, 117
+sb $t0, 13($sp)
+addi $t0, $zero, 114
+sb $t0, 14($sp)
+addi $t0, $zero, 105 #i
+sb $t0, 15($sp)
+addi $t0, $zero, 0 # (null)
+sb $t0, 16($sp)
+
+addi $v0, $zero, 4 #print string
+addi $a0, $sp, 0
+syscall            #print to log
