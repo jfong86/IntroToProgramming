@@ -6,7 +6,7 @@ ADDI $s0, $zero, 2  #set s0 to 2 (starting number)
 ADDI $s1, $zero, 2  #increment
 ADDI $s2, $zero, 20  #set cap to 20
 
-AGAIN: ADDI $s0, $s0, 2
+AGAIN: ADDI $s0, $s0, $s1
 
 BEQ $s0, $s2, DONE
 
