@@ -9,16 +9,14 @@ using namespace std;
 int main()
 {
   double salary;
-    while (salary > 0)
+  cout << "Please enter your salary: ";
+  cin >> salary;
+    while (salary < 0)
     {
+    cout << "You entered a negative number." << endl;
     cout << "Please enter your salary: ";
     cin >> salary;
-    cout << "Your weekly salary is $" << salary << endl;
-      if (salary < 0)
-      {
-      cout << "You entered a negative number." << endl;
-      cout << "Please enter your salary: ";
-      }
     }
+    cout << "Your weekly salary is $" << salary << endl;
 return 0;
 }
