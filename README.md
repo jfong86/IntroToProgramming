@@ -15,11 +15,13 @@ Topics included are:
 - "if" and "if...else" and "if...elif...else" statements
 - while loops
 - manipulating string
+- image analysis
+- creating maps using Folium library
 - arrays and two dimensional arrays
+- reading and manipulating CSV file
+- data analysis
 - array images
 - manipulating image colors
 - manipulating image size
-- reading and manipulating CSV file
-- creating maps using the Folium library
 - ASCII code
 - converting decimal numbers to binary (and vice versa), converting decimal to hexadecimals (and vice versa)
