@@ -11,11 +11,11 @@ Turtle, Pandas, Numpy, Matplotlib (pyplot), and Folium
 
 Topics included are:
 
+- data analysis
+- reading and manipulating CSV file
 - image analysis
 - creating maps using Folium library
 - arrays and two dimensional arrays
-- reading and manipulating CSV file
-- data analysis
 - array images
 - manipulating image colors
 - manipulating image size
