@@ -11,10 +11,6 @@ Turtle, Pandas, Numpy, Matplotlib (pyplot), and Folium
 
 Topics included are:
 
-- for loops
-- "if" and "if...else" and "if...elif...else" statements
-- while loops
-- manipulating string
 - image analysis
 - creating maps using Folium library
 - arrays and two dimensional arrays
@@ -23,5 +19,9 @@ Topics included are:
 - array images
 - manipulating image colors
 - manipulating image size
+- for loops
+- "if" and "if...else" and "if...elif...else" statements
+- while loops
+- manipulating string
 - ASCII code
 - converting decimal numbers to binary (and vice versa), converting decimal to hexadecimals (and vice versa)
