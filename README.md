@@ -1,5 +1,5 @@
 # IntroToComputerScience
-Intro to Computer Science
+Introduction to Computer Science
 
 This repository contains assignments from my Introduction to Computer Science course (Fall 2019) at CUNY Hunter College.
 
