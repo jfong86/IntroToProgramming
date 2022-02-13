@@ -1,7 +1,7 @@
-# IntroToProgramming
-Intro to Programming
+# IntroToComputerScience
+Intro to Computer Science
 
-This repository contains assignments from my Introduction to Programming course (Fall 2019) at CUNY Hunter College.
+This repository contains assignments from my Introduction to Computer Science course (Fall 2019) at CUNY Hunter College.
 
 Most of the assignments are written in Python 3, additional assignments are written in UNIX command lines, MIPS machine language, and C++.
 
